@@ -10,7 +10,7 @@
 </div>
 
 <!-- TODO: drop a screenshot of the panel at docs/screenshot.png -->
-![Panel screenshot](docs/screenshot.png)
+<img width="338" height="584" alt="image" src="https://github.com/user-attachments/assets/5b5b87c5-f37a-4bd6-8418-6b376a3d14bf" />
 
 Built for workflows where GitHub links keep arriving from outside the
 browser — coding agents, terminals, Slack — and every click is another tab.
