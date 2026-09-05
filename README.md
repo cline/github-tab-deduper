@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icons/icon128.png" width="96" alt="GitHub Tab De-duper icon">
+  <img width="338" height="584" alt="image" src="https://github.com/user-attachments/assets/5b5b87c5-f37a-4bd6-8418-6b376a3d14bf" />
   <h1>GitHub Tab De-duper</h1>
   <p><strong>One tab per pull request. No more duplicates.</strong></p>
   <p>
@@ -8,9 +8,6 @@
     tab instead of creating another one.
   </p>
 </div>
-
-<!-- TODO: drop a screenshot of the panel at docs/screenshot.png -->
-<img width="338" height="584" alt="image" src="https://github.com/user-attachments/assets/5b5b87c5-f37a-4bd6-8418-6b376a3d14bf" />
 
 Built for workflows where GitHub links keep arriving from outside the
 browser — coding agents, terminals, Slack — and every click is another tab.
@@ -25,8 +22,6 @@ browser — coding agents, terminals, Slack — and every click is another tab.
 - **Comment links still work** — a link to a specific comment
   (`#issuecomment-…`, `#discussion_r…`) jumps straight to it in your
   existing tab.
-- **Lifetime counter** — "Saved you from N duplicate tabs," persisted from
-  install.
 
 ## Why a generic duplicate-tab blocker doesn't cut it
 
