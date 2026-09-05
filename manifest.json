@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Tab De-duper",
+  "version": "1.0.0",
+  "description": "Opening a GitHub pull request, issue, or discussion you already have open focuses the existing tab instead of creating a duplicate.",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://github.com/*"],
+  "action": {
+    "default_title": "GitHub Tab De-duper",
+    "default_popup": "panel/panel.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "panel/panel.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

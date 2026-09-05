@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GitHub Tab De-duper</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <div class="hero">
+    <img src="../icons/icon128.png" alt="" width="56" height="56">
+    <h1>De-dupe GitHub Tabs</h1>
+    <p class="tagline">
+      Keeps one tab per pull request, issue, or discussion — instead of a
+      pile of duplicates.
+    </p>
+  </div>
+
+  <div class="action">
+    <button id="dedupe-now" class="btn-primary">De-dupe open tabs now</button>
+    <p id="dedupe-status" class="dedupe-status" role="status"></p>
+  </div>
+
+  <section class="settings" aria-label="Settings">
+    <label class="row" for="enabled">
+      <span class="row-text">
+        <span class="row-title">Automatically de-dupe new tabs</span>
+        <span class="row-desc">When a link opens a thread you already have open, the new tab closes itself and you land on the existing tab.</span>
+      </span>
+      <span class="switch">
+        <input type="checkbox" id="enabled">
+        <span class="switch-track" aria-hidden="true"></span>
+      </span>
+    </label>
+
+    <label class="row" for="jumpToFragment">
+      <span class="row-text">
+        <span class="row-title">Jump to linked comment</span>
+        <span class="row-desc">When a link targets a specific comment, the existing tab scrolls to it.</span>
+      </span>
+      <span class="switch">
+        <input type="checkbox" id="jumpToFragment">
+        <span class="switch-track" aria-hidden="true"></span>
+      </span>
+    </label>
+
+    <label class="row" for="collapseSubviews">
+      <span class="row-text">
+        <span class="row-title">One tab per pull request</span>
+        <span class="row-desc">Treat Conversation, Files changed, Commits, and Checks as the same tab. Turn off to keep them separate.</span>
+      </span>
+      <span class="switch">
+        <input type="checkbox" id="collapseSubviews">
+        <span class="switch-track" aria-hidden="true"></span>
+      </span>
+    </label>
+  </section>
+
+  <footer class="footer">
+    <p id="stats" class="stats"></p>
+    <p class="credit">Built by <a href="https://cline.bot" target="_blank" rel="noopener">Cline</a></p>
+  </footer>
+
+  <script type="module" src="panel.js"></script>
+</body>
+</html>

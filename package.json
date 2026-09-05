@@ -1,0 +1,12 @@
+{
+  "name": "github-tab-deduper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension: reuse existing GitHub PR/issue/discussion tabs instead of opening duplicates.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "icons": "node scripts/make-icons.mjs",
+    "package": "node scripts/package.mjs"
+  }
+}
